@@ -1,7 +1,9 @@
 #!/usr/bin/bash 
 #
-# An instalation script to create symlinks of my rcfiles from this
-# directory to my home directory.
+# Brandon Bell
+#
+# An instalation script to create symlinks of my rcfiles from this directory to
+# my home directory.
 #
 
 # The list of files that need to be symlinked to the users home directory.
