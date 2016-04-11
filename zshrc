@@ -8,6 +8,17 @@ export IMTDEV=inet:5137
 # time that oh-my-zsh is loaded.
 ZSH_THEME="pygmalion"
 
+bindkey -v
+export KYETIMEOUT=1
+
+function zle-line-init zle-keymap-select {
+        RPS1="${${KEYMAP/vicmd/-- NORMAL --}/(main|viins)/-- INSERT --}"
+        RPS2=$RPS1
+        zle reset-prompt
+}
+zle -N zle-line-init
+zle -N zle-keymap-select
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
