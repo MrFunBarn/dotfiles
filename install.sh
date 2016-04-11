@@ -12,5 +12,5 @@ rcfiles="vimrc tmux.conf zshrc"
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 for i in $rcfiles; do
-    ln -s -f $(DIR)/"$i" ~/."$i"
+    ln -s -f $DIR/"$i" ~/."$i"
 done
