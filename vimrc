@@ -40,8 +40,6 @@ call vundle#end()
 set number
 set relativenumber     
 
-set mouse=n
-
 set linebreak  
 set showbreak=+++       
 set textwidth=79
