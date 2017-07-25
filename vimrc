@@ -94,13 +94,13 @@ nmap <silent> <c-h> :wincmd h<CR>
 nmap <silent> <c-l> :wincmd l<CR>
 
 " setup powerline ------------------------------------------------------------
-set rtp+=/usr/lib/python3.4/site-packages/powerline/bindings/vim  
+"set rtp+=/usr/lib/python3.4/site-packages/powerline/bindings/vim  
 " displaythe status line in all windows.
-set laststatus=2
+"set laststatus=2
 " sets the colorspace.
-set t_Co=256
+"set t_Co=256
 " Allows for the fancy symobls.
-let g:Powerline_symbols = 'fancy'
+"let g:Powerline_symbols = 'fancy'
 
 "nnoremap <esc> :noh<return><esc>
 
